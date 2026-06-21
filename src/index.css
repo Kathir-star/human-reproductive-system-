@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,300..900;1,300..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", system-ui, -apple-system, sans-serif;
+  --font-serif: "Playfair Display", Georgia, serif;
+  --font-display: "Playfair Display", Georgia, serif;
+  --font-mono: "JetBrains Mono", monospace;
+
+  /* Natural Tones Custom Color Palette */
+  --color-sage-50: #F6F7F3;
+  --color-sage-100: #ECEFE9;
+  --color-sage-200: #DCE2D6;
+  --color-sage-300: #CBD4C2;
+  --color-sage-400: #ADBBA0;
+  --color-sage-500: #8C9A7E; /* Main theme sage */
+  --color-sage-600: #718063;
+  --color-sage-700: #556049;
+  --color-[#FDFCF9]: #FDFCF9;
+  --color-[#F2F0E9]: #F2F0E9;
+  --color-[#E5E2D9]: #E5E2D9;
+  --color-[#42443D]: #42443D;
+  --color-[#2C2E28]: #2C2E28;
+  --color-[#F9F8F5]: #F9F8F5;
+  --color-[#D99A6C]: #D99A6C; /* Terracotta accent */
+}
+
